@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    position: relative;
+    top: 8px;
+}
+
+.select {
+    position: relative;
+    top: 5px;
+    left: 15px;
+    display: inline-block;
+}
+
+select:hover {
+    background-color: mediumseagreen;
+}
+
+.search {
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+
+input {
+    border-radius: 100px;
+    padding: 2px;
+    padding-left: 10px;
+
+}
+
+input[placeholder] {
+    font: italic;
+}
+
+#fiinput {
+    position: absolute;
+    right: 7px;
+    top: 6px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.cred {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 500px;
+    background-color: mediumseagreen;
+    width: 100px;
+    height: 35px;
+    border: 2px solid;
+    border-radius: 50px;
+    font-size: medium;
+    margin: 25px;
+    padding: 5px 25px;
+    color: white;
+    border-color: black;
+}
+
+.log {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 450px;
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border: 2px solid;
+    border-radius: 50px;
+    font-size: medium;
+    margin: 25px;
+    padding: 5px 25px;
+    color: black;
+}
+
+.log:hover {
+    background-color: mediumseagreen;
+    color: white;
+}
+
+a {
+    display: inline-block;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    margin: 25px;
+}
+
+/* a:hover {
+    background-color: black;
+} */
+
+.box {
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    background-color: rgba(0, 0, 0, 0.881);
+    top: -20px;
+    padding: 5px 25px;
+}
+
+.box1 {
+    width: 100%;
+    height: 500px;
+    border: 2px solid;
+    background-color: rgba(0, 0, 0, 0.881);
+    display: flex;
+    justify-content: center;
+    align-items: 50px;
+
+
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: -125px;
+    left: 400px;
+}
+
+.sec {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -50px;
+    left: 80px;
+    color: #f8ffc0;
+}
+
+.secsearch {
+    position: relative;
+    top: 230px;
+    right: 215px;
+    padding: 5px 5px;
+    border-radius: 50px;
+}
+
+.sinput {
+    border-radius: 100px;
+    padding: 10px 10px;
+
+}
+
+i {
+    position: absolute;
+    right: 10px;
+    top: 16px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.not {
+    position: relative;
+    right: 30%;
+    top: 290px;
+    font-size: 25px;
+}
+.aa:hover{
+    color: #f8ffc0;
+}
+.img{
+    position: relative;
+    top: 155px;
+}
+.box2 {
+    width: 100%;
+    height: 520px;
+    border: 2px solid;
+    background-color:#D9EEE1;
+    display: flex;
+    justify-content: center;
+    align-items: 50px;
+}
+.h1{
+    color:black;
+    font-size: 40px;
+    position: relative;
+    top: 105px;
+    right: 100px;
+}
+.h3{
+    color:black;
+    font-size: 20px;
+    position: relative;
+    top: 175px;
+    right: 320px;
+}
+.flex{
+    list-style-type: none;
+    position: relative;
+    top: 225px;
+    right: 600px;
+    justify-content: space-between;
+}
+.li{
+    color: black;
+    background-color: mediumseagreen;
+    width: 200px;
+    height: 60px;
+    border: 2px solid;
+    border-radius: 40px;
+    top: 6px;
+    padding: 2px;
+}
+.li1{
+    color:black;
+    background-color:#fff4a3d5 ;
+    width: 200px;
+    height: 60px;
+    border: 2px solid;
+    border-radius: 40px;
+    top: 15px;
+    padding: 2px;
+}
+.li2{
+    color: black;
+    background-color:black;
+    width: 200px;
+    height: 60px;
+    border: 2px solid;
+    border-radius: 40px;
+    top: 6px;
+    padding: 2px;
+}
+.li3{
+    color: black;
+    background-color:#ffa3d9de;
+    width: 200px;
+    height: 60px;
+    border: 2px solid;
+    border-radius: 40px;
+    top: 6px;
+    padding: 2px;
+}
+.box3 {
+    width: 100%;
+    height: 520px;
+    border: 2px solid;
+    background-color :#fff9c0;
+    display: flex;
+    justify-content: center;
+    align-items: 50px;
+}
